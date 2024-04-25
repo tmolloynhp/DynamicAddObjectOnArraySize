@@ -1,0 +1,75 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: Screen1
+  Id: g=99bae6cad7aedfcbbb34e38777215c5b
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView1
+    Type: ScrollView1
+    Children:
+    - Name: RuntimeNetLogic1
+      Type: NetLogic
+    - Name: VerticalLayout1
+      Type: ColumnLayout
+    - Name: VariableToPopulate
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/DynamicAddObjectOnArraySize/Model/StringArray_5"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 170.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 210.0
+    - Name: ScrollAxesEnabled
+      Type: BaseDataVariableType
+      DataType: ScrollAxesEnabledEnum
+      ModellingRule: Optional
+      Value: 0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: ScrollView2
+    Type: ScrollView1
+    Children:
+    - Name: RuntimeNetLogic1
+      Type: NetLogic
+    - Name: VerticalLayout1
+      Type: ColumnLayout
+    - Name: VariableToPopulate
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/DynamicAddObjectOnArraySize/Model/DintArray_10"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 580.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 210.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
